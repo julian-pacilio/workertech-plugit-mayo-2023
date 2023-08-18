@@ -1,0 +1,14 @@
+Problema: Tengo que dibujar un circulo 
+
+1) Elegir un elemento para la escritura de preferencia, en este caso podria ser un lapiz o una lapicera.
+
+2) Una vez que obtengas tu elemento de escritura, obtener un papel blanco liso de un tamaño de 20 x 20 cm.
+
+3) Apoyar el papel sobre una superficie plana.
+
+4) Dirijirse a la cocina, agarrar una taza pequeña y luego apoyarla sobre la hoja boca abaj, en el centro.
+
+5) Presionar la base de la taza contra la mesa y recorrer el contorno con el elemento para dibujo.
+
+6) Una vez finalizado el proceso, retirar la taza, observar el resultado y en caso de no estar conforme, repetir el proceso.
+

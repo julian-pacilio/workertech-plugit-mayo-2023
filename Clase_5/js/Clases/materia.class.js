@@ -17,11 +17,9 @@ class Materia {
     }
 
     ingresarNota() {
-
         do {
             this.nota = parseInt(prompt('Ingrese nota de la materia'));
         } while (!(this.nota >= 1 && this.nota <= 10));
-        this.nota = nota;
     }
 
     mostrar() {

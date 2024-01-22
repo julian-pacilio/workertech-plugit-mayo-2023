@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        section  {
+            font-size: 2em;
+            margin: 20px;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <section id="elementos" style="display: none;">
+        <ul>
+            <li class="item item_1"></li>
+            <li class="item item_2"></li>
+            <li class="item item_3"></li>
+            <li class="item item_4"></li>
+        </ul>
+    </section>
+    <section>
+        <button id="button_1">Mostrar</button>
+        <button id="button_2">Ocultar</button>
+    </section>
+    <section id="form">
+        <form action="#" method="get" enctype="application/x-www-form-urlencoded">
+            <div>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
+    <script src="js/eventos.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+@import url(../css/normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #f2fdee;
+    --secondary-color: #008080;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    background-color: var(--secondary-color);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.btn {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 16px;
+    border: 0;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.btn:hover {
+    /* box-shadow: 1px 1px 26px -4px rgba(71,71,71,0.57); */
+    background-color: rgb(140, 140, 140);
+    box-shadow: 0px 15px 20px rgba(80, 80, 80, 0.4);
+    transition-delay: 3ms;
+}
+
+.hero {
+    height: 60px;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+}
+
+header nav ul li a {
+    color: white;
+}
+
+footer { 
+    height: 60px;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+}
+
+footer p {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+
+section {
+    min-width: 300px;
+    max-width: 75pc;
+    margin: 4em auto;
+}
+
+h2 {
+    color: var(--primary-color);
+    text-align: center;
+    margin: 24px;
+    font-size: 3em;
+}
+
+.container__productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container__productos__item {
+    flex: 300px;
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+.container__productos__item__img img {
+    border-radius: 10px;
+}
+
+.container__productos__item__info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    margin: 20px 0;
+}
+
+.container__productos__item__info h3 {
+    font-size: 24px;
+}
+
+.container__productos__item__info p {
+    font-size: 20px;
+}
+
+.container__productos__item__info span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container__productos__item__botones {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container__productos__item__botones a {
+    text-align: center;
+    background: rgb(0, 80, 80);
+}

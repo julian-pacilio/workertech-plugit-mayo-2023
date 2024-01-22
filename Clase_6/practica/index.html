@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>JS - Website Dinámica</title>
+</head>
+<body>
+    <header class="hero">
+        <div class="logo">
+            Zapatillin
+        </div>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="productos">
+            <h2>Productos</h2>
+            <!-- <ul class="container__productos">
+                <li id="1" class="container__productos__item">
+                    <figure class="container__productos__item__img">
+                        <img src="./img/01_Adidas_Superstar.jpg" alt="Adidas Superstar">
+                    </figure>
+                    <div class="container__productos__item__info">
+                        <h3>Adidas Superstar</h3>
+                        <p>Su historia hizo que dejen de ser un calzado para ser un ícono de la moda.</p>
+                        <p>$<span>13000</span></p>
+                        <p>Urbano</p>
+                    </div>
+                    <div class="container__productos__item__botones">
+                        <button class="btn">Agregar al carrito</button>
+                        <a class="btn" href="#">Ver Detalle</a>
+                    </div>
+                </li>
+                <li id="2" class="container__productos__item">
+                    <figure class="container__productos__item__img">
+                        <img src="./img/01_Adidas_Superstar.jpg" alt="Adidas Superstar">
+                    </figure>
+                    <div class="container__productos__item__info">
+                        <h3>Adidas Superstar</h3>
+                        <p>Su historia hizo que dejen de ser un calzado para ser un ícono de la moda.</p>
+                        <span>$13000</span>
+                        <p>Urbano</p>
+                    </div>
+                    <div class="container__productos__item__botones">
+                        <button class="btn">Agregar al carrito</button>
+                        <a class="btn" href="#">Ver Detalle</a>
+                    </div>
+                </li>
+                <li id="3" class="container__productos__item">
+                    <figure class="container__productos__item__img">
+                        <img src="./img/01_Adidas_Superstar.jpg" alt="Adidas Superstar">
+                    </figure>
+                    <div class="container__productos__item__info">
+                        <h3>Adidas Superstar</h3>
+                        <p>Su historia hizo que dejen de ser un calzado para ser un ícono de la moda.</p>
+                        <span>$13000</span>
+                        <p>Urbano</p>
+                    </div>
+                    <div class="container__productos__item__botones">
+                        <button class="btn">Agregar al carrito</button>
+                        <a class="btn" href="#">Ver Detalle</a>
+                    </div>
+                </li>
+                <li id="4" class="container__productos__item">
+                    <figure class="container__productos__item__img">
+                        <img src="./img/01_Adidas_Superstar.jpg" alt="Adidas Superstar">
+                    </figure>
+                    <div class="container__productos__item__info">
+                        <h3>Adidas Superstar</h3>
+                        <p>Su historia hizo que dejen de ser un calzado para ser un ícono de la moda.</p>
+                        <span>$13000</span>
+                        <p>Urbano</p>
+                    </div>
+                    <div class="container__productos__item__botones">
+                        <button class="btn">Agregar al carrito</button>
+                        <a class="btn" href="#">Ver Detalle</a>
+                    </div>
+                </li>
+                <li id="5" class="container__productos__item">
+                    <figure class="container__productos__item__img">
+                        <img src="./img/01_Adidas_Superstar.jpg" alt="Adidas Superstar">
+                    </figure>
+                    <div class="container__productos__item__info">
+                        <h3>Adidas Superstar</h3>
+                        <p>Su historia hizo que dejen de ser un calzado para ser un ícono de la moda.</p>
+                        <span>$13000</span>
+                        <p>Urbano</p>
+                    </div>
+                    <div class="container__productos__item__botones">
+                        <button class="btn">Agregar al carrito</button>
+                        <a class="btn" href="#">Ver Detalle</a>
+                    </div>
+                </li>
+                <li id="6" class="container__productos__item">
+                    <figure class="container__productos__item__img">
+                        <img src="./img/01_Adidas_Superstar.jpg" alt="Adidas Superstar">
+                    </figure>
+                    <div class="container__productos__item__info">
+                        <h3>Adidas Superstar</h3>
+                        <p>Su historia hizo que dejen de ser un calzado para ser un ícono de la moda.</p>
+                        <span>$13000</span>
+                        <p>Urbano</p>
+                    </div>
+                    <div class="container__productos__item__botones">
+                        <button class="btn">Agregar al carrito</button>
+                        <a class="btn" href="#">Ver Detalle</a>
+                    </div>
+                </li>
+                <li id="7" class="container__productos__item">
+                    <figure class="container__productos__item__img">
+                        <img src="./img/01_Adidas_Superstar.jpg" alt="Adidas Superstar">
+                    </figure>
+                    <div class="container__productos__item__info">
+                        <h3>Adidas Superstar</h3>
+                        <p>Su historia hizo que dejen de ser un calzado para ser un ícono de la moda.</p>
+                        <span>$13000</span>
+                        <p>Urbano</p>
+                    </div>
+                    <div class="container__productos__item__botones">
+                        <button class="btn">Agregar al carrito</button>
+                        <a class="btn" href="#">Ver Detalle</a>
+                    </div>
+                </li>
+                <li id="8" class="container__productos__item">
+                    <figure class="container__productos__item__img">
+                        <img src="./img/01_Adidas_Superstar.jpg" alt="Adidas Superstar">
+                    </figure>
+                    <div class="container__productos__item__info">
+                        <h3>Adidas Superstar</h3>
+                        <p>Su historia hizo que dejen de ser un calzado para ser un ícono de la moda.</p>
+                        <span>$13000</span>
+                        <p>Urbano</p>
+                    </div>
+                    <div class="container__productos__item__botones">
+                        <button class="btn">Agregar al carrito</button>
+                        <a class="btn" href="#">Ver Detalle</a>
+                    </div>
+                </li>
+                <li id="9" class="container__productos__item">
+                    <figure class="container__productos__item__img">
+                        <img src="./img/01_Adidas_Superstar.jpg" alt="Adidas Superstar">
+                    </figure>
+                    <div class="container__productos__item__info">
+                        <h3>Adidas Superstar</h3>
+                        <p>Su historia hizo que dejen de ser un calzado para ser un ícono de la moda.</p>
+                        <span>$13000</span>
+                        <p>Urbano</p>
+                    </div>
+                    <div class="container__productos__item__botones">
+                        <button class="btn">Agregar al carrito</button>
+                        <a class="btn" href="#">Ver Detalle</a>
+                    </div>
+                </li>
+                <li id="10" class="container__productos__item">
+                    <figure class="container__productos__item__img">
+                        <img src="./img/01_Adidas_Superstar.jpg" alt="Adidas Superstar">
+                    </figure>
+                    <div class="container__productos__item__info">
+                        <h3>Adidas Superstar</h3>
+                        <p>Su historia hizo que dejen de ser un calzado para ser un ícono de la moda.</p>
+                        <span>$13000</span>
+                        <p>Urbano</p>
+                    </div>
+                    <div class="container__productos__item__botones">
+                        <button class="btn">Agregar al carrito</button>
+                        <a class="btn" href="#">Ver Detalle</a>
+                    </div>
+                </li>
+                <li id="11" class="container__productos__item">
+                    <figure class="container__productos__item__img">
+                        <img src="./img/01_Adidas_Superstar.jpg" alt="Adidas Superstar">
+                    </figure>
+                    <div class="container__productos__item__info">
+                        <h3>Adidas Superstar</h3>
+                        <p>Su historia hizo que dejen de ser un calzado para ser un ícono de la moda.</p>
+                        <span>$13000</span>
+                        <p>Urbano</p>
+                    </div>
+                    <div class="container__productos__item__botones">
+                        <button class="btn">Agregar al carrito</button>
+                        <a class="btn" href="#">Ver Detalle</a>
+                    </div>
+                </li>
+                <li id="12" class="container__productos__item">
+                    <figure class="container__productos__item__img">
+                        <img src="./img/01_Adidas_Superstar.jpg" alt="Adidas Superstar">
+                    </figure>
+                    <div class="container__productos__item__info">
+                        <h3>Adidas Superstar</h3>
+                        <p>Su historia hizo que dejen de ser un calzado para ser un ícono de la moda.</p>
+                        <span>$13000</span>
+                        <p>Urbano</p>
+                    </div>
+                    <div class="container__productos__item__botones">
+                        <button class="btn">Agregar al carrito</button>
+                        <a class="btn" href="#">Ver Detalle</a>
+                    </div>
+                </li>
+            </ul> -->
+            <ul id="lista__productos" class="container__productos"></ul>
+        </section>
+        <!-- <section>
+            <form action="#" method="get" enctype="application/x-www-form-urlencoded">
+                <div>
+                    <label for="email"></label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section> -->
+    </main>
+    <footer>
+        <p>
+            Todos los derechos reservados &copy; Zapatillin 2024
+        </p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
